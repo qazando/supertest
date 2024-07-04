@@ -18,5 +18,7 @@ jobs:
       run: npm install
     - name: Install jest
       run: npm install jest supertest
+    - name: Fix permissions
+      run: sudo chmod -R 777 /home/runner/.npm/_npx
     - name: Run SuperTest
-      run: jest --testNamePattern="cadastrar uma reserva"
+      run: npm run test:single
