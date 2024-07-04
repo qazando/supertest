@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:single": "npx jest --testNamePattern=\"cadastrar uma reserva\""
+    "test:single": "jest --testNamePattern=\"cadastrar uma reserva\""
   },
   "keywords": [],
   "author": "",
