@@ -16,5 +16,7 @@ jobs:
         node-version: 18
     - name: Install dependencies
       run: npm install
+    - name: Install supertest
+      run: npm install supertest --save-dev
     - name: Run SuperTest
       run: npx jest --testNamePattern="cadastrar uma reserva"
