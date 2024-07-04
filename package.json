@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:single": "jest --testNamePattern=\"cadastrar uma reserva\""
   },
   "keywords": [],
   "author": "",

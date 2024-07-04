@@ -19,4 +19,4 @@ jobs:
     - name: Install jest
       run: npm install --save-dev jest
     - name: Run SuperTest
-      run: jest --testNamePattern="cadastrar uma reserva"
+      run: npm run test:single
